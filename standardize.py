@@ -47,6 +47,11 @@ class Standardize:
         df_tosave.to_csv(path_tosave, index=False)
 
 
+    def mvp_std_func(self):
+        df = self.df
+
+        print("worked")
+
 
 
 
