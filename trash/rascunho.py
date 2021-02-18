@@ -47,4 +47,7 @@ for season in np.arange(1980,2021,1):
     df = df.astype(data_types_dict)
     # print(df.dtypes)
 
+    df['Season'] = season
+
+
     df.to_csv(f'../data/{season}std.csv',index=False)
