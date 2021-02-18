@@ -22,13 +22,29 @@ import numpy as np
 
 # Removing Games Started column (incomplete information)
 
+###############################################################################################################################################
+
+# for season in np.arange(1980,2021,1):
+
+#     df = pd.read_csv(f'../data/{season}std.csv')
+#     df2 = pd.read_csv(f'../data/mvp/{season}_mvpstd.csv')
+
+#     df = df.join(df2.set_index('Player'), on='Player')
+
+#     df[['Status']] = df[['Status']].fillna(value='OOR')
+
+#     df.to_csv(f'../data/{season}std.csv',index=False)
+
+
+###############################################################################################################################################
+
 for season in np.arange(1980,2021,1):
+    data_types_dict = {'Age': 'int32', 'G': 'int32', 'MP': 'int32', 'FG': 'int32', 'FGA': 'int32', '3P': 'int32', '3PA': 'int32',
+    '2P': 'int32', '2PA': 'int32', 'FT': 'int32', 'FTA': 'int32', 'ORB': 'int32', 'DRB': 'int32', 'TRB': 'int32', 'AST': 'int32', 
+    'STL': 'int32', 'BLK': 'int32', 'TOV': 'int32', 'PF': 'int32', 'PTS': 'int32' }
 
     df = pd.read_csv(f'../data/{season}std.csv')
-    df2 = pd.read_csv(f'../data/mvp/{season}_mvpstd.csv')
-
-    df = df.join(df2.set_index('Player'), on='Player')
-
-    df[['Status']] = df[['Status']].fillna(value='OOR')
+    df = df.astype(data_types_dict)
+    # print(df.dtypes)
 
     df.to_csv(f'../data/{season}std.csv',index=False)
