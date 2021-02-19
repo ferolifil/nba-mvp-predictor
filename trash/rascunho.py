@@ -48,6 +48,6 @@ for season in np.arange(1980,2021,1):
     # print(df.dtypes)
 
     df['Season'] = season
-
+    
 
     df.to_csv(f'../data/{season}std.csv',index=False)
