@@ -4,6 +4,8 @@ import standardize as std
 
 def main():
 
+    # veja que legal rany
+
     # Opening Dataframe 
     
     # Standardizing all dataframes from 1980 -> 2020
