@@ -48,7 +48,7 @@ class Standardize:
 
 
     def mvp_std_func(self):
-        df = self.df
+        # df = self.df
 
         print("worked")
 

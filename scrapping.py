@@ -6,10 +6,10 @@ import numpy as np
 # Getting all players stats from 1979-80 to 2019-20 season 
 # Data from basketball-reference.com
 
-for season in np.arange(1980,2021,1):
+for season in np.arange(1981,2021,1):
 
     # URL page we will scraping (see image above)
-    url = "https://www.basketball-reference.com/leagues/NBA_{}_totals.html".format(season)
+    url = "https://www.basketball-reference.com/leagues/NBA_{}_advanced.html".format(season)
     # this is the HTML from the given URL
     html = urlopen(url)
     soup = BeautifulSoup(html)
@@ -29,11 +29,11 @@ for season in np.arange(1980,2021,1):
 
     df = pd.DataFrame(player_stats, columns = headers)
  
-    df.to_csv(f"./basketball_reference_dbs/{season}.csv", index=False)
+    df.to_csv(f"./basketball_reference_dbs/{season}adv.csv", index=False)
 
 # I know it's ugly, but it's just to be practical
 
-for season in np.arange(1980,2021,1):
+for season in np.arange(1981,2021,1):
 
     # URL page we will scraping (see image above)
     url = "https://www.basketball-reference.com/awards/awards_{}.html".format(season)
@@ -57,4 +57,4 @@ for season in np.arange(1980,2021,1):
     df = pd.DataFrame(player_stats, columns = headers)
     df = df.iloc[1:]
  
-    df.to_csv(f"../basketball_reference_dbs/mvp/{season}_mvp.csv", index=False)
+    df.to_csv(f"./basketball_reference_dbs/mvp/{season}_mvp.csv", index=False)
