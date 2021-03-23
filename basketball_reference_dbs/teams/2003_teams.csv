@@ -1,30 +1,30 @@
-Year,Team,W,L,W/L%,GB,PS/G,PA/G,SRS,Playoffs,Losing_season
-2003,New Jersey Nets,49,33,.598,—,95.4,90.1,4.42,Y,N
-2003,Philadelphia 76ers,48,34,.585,1.0,96.8,94.5,1.76,Y,N
-2003,Boston Celtics,44,38,.537,5.0,92.7,93.1,-0.75,Y,N
-2003,Orlando Magic,42,40,.512,7.0,98.5,98.4,-0.39,Y,N
-2003,Washington Wizards,37,45,.451,12.0,91.5,92.5,-1.47,N,Y
-2003,New York Knicks,37,45,.451,12.0,95.9,97.2,-1.61,N,Y
-2003,Miami Heat,25,57,.305,24.0,85.6,90.6,-5.13,N,Y
-2003,Detroit Pistons,50,32,.610,—,91.4,87.7,2.97,Y,N
-2003,Indiana Pacers,48,34,.585,2.0,96.8,93.3,2.79,Y,N
-2003,New Orleans Hornets,47,35,.573,3.0,93.9,91.8,1.52,Y,N
-2003,Milwaukee Bucks,42,40,.512,8.0,99.5,99.3,-0.24,Y,N
-2003,Atlanta Hawks,35,47,.427,15.0,94.1,97.6,-3.87,N,Y
-2003,Chicago Bulls,30,52,.366,20.0,95.0,100.1,-5.31,N,Y
-2003,Toronto Raptors,24,58,.293,26.0,90.9,96.8,-6.10,N,Y
-2003,Cleveland Cavaliers,17,65,.207,33.0,91.4,101.0,-9.59,N,Y
-2003,Midwest Division,60,22,.732,—,95.8,90.4,5.65,N,N
-2003,San Antonio Spurs,60,22,.732,—,103.0,95.2,7.90,Y,N
-2003,Dallas Mavericks,51,31,.622,9.0,98.1,96.0,2.46,Y,N
-2003,Minnesota Timberwolves,47,35,.573,13.0,94.7,92.3,2.76,Y,N
-2003,Utah Jazz,43,39,.524,17.0,93.8,92.3,1.89,Y,N
-2003,Houston Rockets,28,54,.341,32.0,97.5,100.7,-2.60,N,Y
-2003,Memphis Grizzlies,17,65,.207,43.0,84.2,92.4,-7.41,N,Y
-2003,Denver Nuggets,59,23,.720,—,101.7,95.2,6.68,N,N
-2003,Pacific Division,50,32,.610,9.0,100.4,98.0,2.71,N,N
-2003,Sacramento Kings,50,32,.610,9.0,95.2,92.5,2.97,Y,N
-2003,Los Angeles Lakers,44,38,.537,15.0,95.5,94.4,1.57,Y,N
-2003,Portland Trail Blazers,40,42,.488,19.0,92.1,92.3,0.37,Y,Y
-2003,Phoenix Suns,38,44,.463,21.0,102.4,103.6,-0.60,Y,Y
-2003,Seattle SuperSonics,27,55,.329,32.0,93.8,97.9,-3.45,N,Y
+W,L,W/L%,GB,PS/G,PA/G,SRS,Teams
+49,33,.598,—,95.4,90.1,4.42,New Jersey Nets
+48,34,.585,1.0,96.8,94.5,1.76,Philadelphia 76ers
+44,38,.537,5.0,92.7,93.1,-0.75,Boston Celtics
+42,40,.512,7.0,98.5,98.4,-0.39,Orlando Magic
+37,45,.451,12.0,91.5,92.5,-1.47,Washington Wizards
+37,45,.451,12.0,95.9,97.2,-1.61,New York Knicks
+25,57,.305,24.0,85.6,90.6,-5.13,Miami Heat
+50,32,.610,—,91.4,87.7,2.97,Detroit Pistons
+48,34,.585,2.0,96.8,93.3,2.79,Indiana Pacers
+47,35,.573,3.0,93.9,91.8,1.52,New Orleans Hornets
+42,40,.512,8.0,99.5,99.3,-0.24,Milwaukee Bucks
+35,47,.427,15.0,94.1,97.6,-3.87,Atlanta Hawks
+30,52,.366,20.0,95.0,100.1,-5.31,Chicago Bulls
+24,58,.293,26.0,90.9,96.8,-6.10,Toronto Raptors
+17,65,.207,33.0,91.4,101.0,-9.59,Cleveland Cavaliers
+60,22,.732,—,95.8,90.4,5.65,San Antonio Spurs
+60,22,.732,—,103.0,95.2,7.90,Dallas Mavericks
+51,31,.622,9.0,98.1,96.0,2.46,Minnesota Timberwolves
+47,35,.573,13.0,94.7,92.3,2.76,Utah Jazz
+43,39,.524,17.0,93.8,92.3,1.89,Houston Rockets
+28,54,.341,32.0,97.5,100.7,-2.60,Memphis Grizzlies
+17,65,.207,43.0,84.2,92.4,-7.41,Denver Nuggets
+59,23,.720,—,101.7,95.2,6.68,Sacramento Kings
+50,32,.610,9.0,100.4,98.0,2.71,Los Angeles Lakers
+50,32,.610,9.0,95.2,92.5,2.97,Portland Trail Blazers
+44,38,.537,15.0,95.5,94.4,1.57,Phoenix Suns
+40,42,.488,19.0,92.1,92.3,0.37,Seattle SuperSonics
+38,44,.463,21.0,102.4,103.6,-0.60,Golden State Warriors
+27,55,.329,32.0,93.8,97.9,-3.45,Los Angeles Clippers

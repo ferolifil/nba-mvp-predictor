@@ -1,24 +1,24 @@
-Year,Team,W,L,W/L%,GB,PS/G,PA/G,SRS,Playoffs,Losing_season
-1985,Boston Celtics,63,19,.768,—,114.8,108.1,6.47,Y,N
-1985,Philadelphia 76ers,58,24,.707,5.0,112.9,108.8,4.17,Y,N
-1985,New Jersey Nets,42,40,.512,21.0,109.5,109.2,0.64,Y,N
-1985,Washington Bullets,40,42,.488,23.0,105.5,105.8,0.15,Y,Y
-1985,New York Knicks,24,58,.293,39.0,105.2,109.8,-4.09,N,Y
-1985,Milwaukee Bucks,59,23,.720,—,110.9,104.0,6.69,Y,N
-1985,Detroit Pistons,46,36,.561,13.0,116.0,113.5,2.73,Y,N
-1985,Chicago Bulls,38,44,.463,21.0,108.7,109.6,-0.50,Y,Y
-1985,Cleveland Cavaliers,36,46,.439,23.0,108.6,111.3,-2.27,Y,Y
-1985,Atlanta Hawks,34,48,.415,25.0,106.6,108.1,-1.14,N,Y
-1985,Indiana Pacers,22,60,.268,37.0,108.3,114.5,-5.46,N,Y
-1985,Midwest Division,52,30,.634,—,120.0,117.6,2.05,N,N
-1985,Denver Nuggets,48,34,.585,4.0,111.2,109.5,1.38,Y,N
-1985,Houston Rockets,44,38,.537,8.0,111.2,109.0,1.80,Y,N
-1985,Dallas Mavericks,41,41,.500,11.0,109.0,109.1,-0.33,Y,N
-1985,Utah Jazz,41,41,.500,11.0,114.8,113.9,0.63,Y,N
-1985,San Antonio Spurs,31,51,.378,21.0,114.8,117.5,-2.71,Y,Y
-1985,Kansas City Kings,62,20,.756,—,118.2,110.9,6.48,N,N
-1985,Pacific Division,42,40,.512,20.0,115.5,112.1,2.80,N,N
-1985,Los Angeles Lakers,36,46,.439,26.0,108.0,110.1,-2.34,Y,Y
-1985,Portland Trail Blazers,31,51,.378,31.0,102.1,107.6,-5.44,Y,Y
-1985,Phoenix Suns,31,51,.378,31.0,107.1,111.6,-4.55,Y,Y
-1985,Seattle SuperSonics,22,60,.268,40.0,110.4,117.7,-7.21,N,Y
+W,L,W/L%,GB,PS/G,PA/G,SRS,Teams
+63,19,.768,—,114.8,108.1,6.47,Boston Celtics
+58,24,.707,5.0,112.9,108.8,4.17,Philadelphia 76ers
+42,40,.512,21.0,109.5,109.2,0.64,New Jersey Nets
+40,42,.488,23.0,105.5,105.8,0.15,Washington Bullets
+24,58,.293,39.0,105.2,109.8,-4.09,New York Knicks
+59,23,.720,—,110.9,104.0,6.69,Milwaukee Bucks
+46,36,.561,13.0,116.0,113.5,2.73,Detroit Pistons
+38,44,.463,21.0,108.7,109.6,-0.50,Chicago Bulls
+36,46,.439,23.0,108.6,111.3,-2.27,Cleveland Cavaliers
+34,48,.415,25.0,106.6,108.1,-1.14,Atlanta Hawks
+22,60,.268,37.0,108.3,114.5,-5.46,Indiana Pacers
+52,30,.634,—,120.0,117.6,2.05,Denver Nuggets
+48,34,.585,4.0,111.2,109.5,1.38,Houston Rockets
+44,38,.537,8.0,111.2,109.0,1.80,Dallas Mavericks
+41,41,.500,11.0,109.0,109.1,-0.33,Utah Jazz
+41,41,.500,11.0,114.8,113.9,0.63,San Antonio Spurs
+31,51,.378,21.0,114.8,117.5,-2.71,Kansas City Kings
+62,20,.756,—,118.2,110.9,6.48,Los Angeles Lakers
+42,40,.512,20.0,115.5,112.1,2.80,Portland Trail Blazers
+36,46,.439,26.0,108.0,110.1,-2.34,Phoenix Suns
+31,51,.378,31.0,102.1,107.6,-5.44,Seattle SuperSonics
+31,51,.378,31.0,107.1,111.6,-4.55,Los Angeles Clippers
+22,60,.268,40.0,110.4,117.7,-7.21,Golden State Warriors

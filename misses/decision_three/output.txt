@@ -42,4 +42,4 @@ Model : DecisionTreeRegressor(criterion='mae', max_depth=3)
  2020 |   Fail   | 3 from de top3 correct | ['LeBron James', 'Giannis Antetokounmpo', 'James Harden'] |
 GLOBAL_SUCCESS_RATE : 55.00%
 GLOBAL_SUCCESS_RATE_TOP3 : 61.67%
-Time elapsed: 14.98 seconds
+Time elapsed: 15.86 seconds
