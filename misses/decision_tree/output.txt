@@ -1,5 +1,5 @@
 Model : DecisionTreeRegressor(criterion='mae', max_depth=3)
-5 features : ['WS', 'W/L%', 'VORP', 'BPM', 'PTS']
+5 features : ['WS', 'VORP', 'W/L%', 'STL%', 'PTS']
  1981 |   Fail   | 2 from de top3 correct | ['Kareem Abdul-Jabbar', 'Julius Erving'] |
  1982 | Success  | 3 from de top3 correct | ['Moses Malone', 'Julius Erving', 'Larry Bird'] |
  1983 | Success  | 3 from de top3 correct | ['Moses Malone', 'Larry Bird', 'Magic Johnson'] |
@@ -42,4 +42,4 @@ Model : DecisionTreeRegressor(criterion='mae', max_depth=3)
  2020 |   Fail   | 3 from de top3 correct | ['LeBron James', 'Giannis Antetokounmpo', 'James Harden'] |
 GLOBAL_SUCCESS_RATE : 60.00%
 GLOBAL_SUCCESS_RATE_TOP3 : 61.67%
-Time elapsed: 93.32 seconds
+Time elapsed: 90.77 seconds

@@ -1,0 +1,240 @@
+Round : 1
+Iterations : 5
+Max_depth : 1
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 40.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 62.50%
+Elapsed time : 24.57
+-----------------------------------------
+Round : 2
+Iterations : 5
+Max_depth : 2
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 45.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 63.33%
+Elapsed time : 27.97
+-----------------------------------------
+Round : 3
+Iterations : 5
+Max_depth : 3
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 50.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 65.83%
+Elapsed time : 31.44
+-----------------------------------------
+Round : 4
+Iterations : 5
+Max_depth : 4
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 47.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 63.33%
+Elapsed time : 34.74
+-----------------------------------------
+Round : 5
+Iterations : 5
+Max_depth : 5
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 42.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 65.00%
+Elapsed time : 37.30
+-----------------------------------------
+Round : 6
+Iterations : 5
+Max_depth : 6
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 42.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 64.17%
+Elapsed time : 39.89
+-----------------------------------------
+Round : 7
+Iterations : 5
+Max_depth : 7
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 42.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 65.00%
+Elapsed time : 42.17
+-----------------------------------------
+Round : 8
+Iterations : 5
+Max_depth : 8
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 37.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 63.33%
+Elapsed time : 43.90
+-----------------------------------------
+Round : 9
+Iterations : 5
+Max_depth : 9
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 37.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 62.50%
+Elapsed time : 45.57
+-----------------------------------------
+Round : 10
+Iterations : 5
+Max_depth : 10
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 35.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 65.00%
+Elapsed time : 46.40
+-----------------------------------------
+Round : 11
+Iterations : 5
+Max_depth : 11
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 37.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 63.33%
+Elapsed time : 46.78
+-----------------------------------------
+Round : 12
+Iterations : 5
+Max_depth : 12
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 37.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 64.17%
+Elapsed time : 47.13
+-----------------------------------------
+Round : 13
+Iterations : 5
+Max_depth : 13
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 35.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 63.33%
+Elapsed time : 47.06
+-----------------------------------------
+Round : 14
+Iterations : 5
+Max_depth : 14
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 37.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 64.17%
+Elapsed time : 47.02
+-----------------------------------------
+Round : 15
+Iterations : 5
+Max_depth : 15
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 35.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 63.33%
+Elapsed time : 47.25
+-----------------------------------------
+Round : 16
+Iterations : 10
+Max_depth : 1
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 37.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 62.50%
+Elapsed time : 48.29
+-----------------------------------------
+Round : 17
+Iterations : 10
+Max_depth : 2
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 45.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 63.33%
+Elapsed time : 55.30
+-----------------------------------------
+Round : 18
+Iterations : 10
+Max_depth : 3
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 47.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 65.83%
+Elapsed time : 62.44
+-----------------------------------------
+Round : 19
+Iterations : 10
+Max_depth : 4
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 45.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 63.33%
+Elapsed time : 68.48
+-----------------------------------------
+Round : 20
+Iterations : 10
+Max_depth : 5
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 42.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 63.33%
+Elapsed time : 73.86
+-----------------------------------------
+Round : 21
+Iterations : 10
+Max_depth : 6
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 42.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 65.00%
+Elapsed time : 79.11
+-----------------------------------------
+Round : 22
+Iterations : 10
+Max_depth : 7
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 40.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 64.17%
+Elapsed time : 83.53
+-----------------------------------------
+Round : 23
+Iterations : 10
+Max_depth : 8
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 40.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 65.83%
+Elapsed time : 87.26
+-----------------------------------------
+Round : 24
+Iterations : 10
+Max_depth : 9
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 35.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 63.33%
+Elapsed time : 90.07
+-----------------------------------------
+Round : 25
+Iterations : 10
+Max_depth : 10
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 35.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 64.17%
+Elapsed time : 91.89
+-----------------------------------------
+Round : 26
+Iterations : 10
+Max_depth : 11
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 37.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 64.17%
+Elapsed time : 92.81
+-----------------------------------------
+Round : 27
+Iterations : 10
+Max_depth : 12
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 35.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 65.00%
+Elapsed time : 93.17
+-----------------------------------------
+Round : 28
+Iterations : 10
+Max_depth : 13
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 37.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 61.67%
+Elapsed time : 93.53
+-----------------------------------------
+Round : 29
+Iterations : 10
+Max_depth : 14
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 35.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 63.33%
+Elapsed time : 93.54
+-----------------------------------------
+Round : 30
+Iterations : 10
+Max_depth : 15
+Features used : ['VORP']
+GLOBAL_SUCCESS_RATE : 35.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 63.33%
+Elapsed time : 93.82
+-----------------------------------------
