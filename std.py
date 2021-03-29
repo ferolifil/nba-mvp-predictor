@@ -146,10 +146,12 @@ def teams_std(df, season):
     rows_to_drop = []
 
     for i in df.index:
-        if df.at[i,'Teams'] == 'Charlotte Hornets' and season in chh_issue:
+        team  = df.at[i,'Teams'].split(sep="(")[0]
+        team = team[:-1]
+        if team == 'Charlotte Hornets' and season in chh_issue:
             tm_list.append('CHH')
-        elif df.at[i,'Teams'] in team_dict.keys():
-            tm_list.append(team_dict[df.at[i,'Teams']])
+        elif team in team_dict.keys():
+            tm_list.append(team_dict[team])
         else:
             rows_to_drop.append(i)
 
