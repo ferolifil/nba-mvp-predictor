@@ -26,7 +26,7 @@ def merging_df(df1,df2, keys):
 
 #     df[['Status']] = df[['Status']].fillna(value='OOR')
 
-    df1.to_csv(f'./data/{season}_std.csv',index=False)
+    # df1.to_csv(f'./data/{season}_std.csv',index=False)
     
     return df1
     

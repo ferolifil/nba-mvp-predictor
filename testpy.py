@@ -1,5 +1,6 @@
 from scrap import scrap, scrap_teams, get_teams
 from std import adjust_main, adjust_mvp, transfered_players, merging_df, teams_std
+import pandas as pd
 
 season = 2021
 
@@ -40,17 +41,17 @@ df2 = adjust_main(df2)
 # Merging both DataFrames
 df1 = merging_df(df1,df2,['Player','Pos', 'Age','G', 'MP','Tm']) 
 
-# Adjusting the MVP DataFrame
-col = ['Player', 'First','Share']
-df3 = pd.read_csv(f'./basketball_reference_dbs/mvp/{season}_mvp.csv',usecols=col)
-df3 = adjust_mvp(df3)
+# # Adjusting the MVP DataFrame
+# col = ['Player', 'First','Share']
+# df3 = pd.read_csv(f'./basketball_reference_dbs/mvp/{season}_mvp.csv',usecols=col)
+# df3 = adjust_mvp(df3)
 
-# Merging again
-df1 = merging_df(df1,df3,['Player'])
+# # Merging again
+# df1 = merging_df(df1,df3,['Player'])
 
-df1[['Status']] = df1[['Status']].fillna(value='OOR')
-df1 = df1.fillna(0.0)
-df1[['Season']] = season
+# df1[['Status']] = df1[['Status']].fillna(value='OOR')
+# df1 = df1.fillna(0.0)
+# df1[['Season']] = season
 
 df1 = transfered_players(df1)
 
@@ -58,12 +59,14 @@ df4 = pd.read_csv(f"./basketball_reference_dbs/teams/{season}_teams.csv")
 df4 = teams_std(df4,season)
 
 df1 = merging_df(df1,df4,['Tm'])
+print(df1.info())
 
 data_types_dict = {'Age': 'int32', 'G': 'int32', 'MP': 'int32', 'FG': 'int32', 'FGA': 'int32', '3P': 'int32', '3PA': 'int32',
 '2P': 'int32', '2PA': 'int32', 'FT': 'int32', 'FTA': 'int32', 'ORB': 'int32', 'DRB': 'int32', 'TRB': 'int32', 'AST': 'int32', 
-'STL': 'int32', 'BLK': 'int32', 'TOV': 'int32', 'PF': 'int32', 'PTS': 'int32', 'First': 'int32', 'Season': 'object', 'W/L%' : 'float64'}
+'STL': 'int32', 'BLK': 'int32', 'TOV': 'int32', 'PF': 'int32', 'PTS': 'int32', 'Season': 'object', 'W/L%' : 'float64'}
 
 df1 = df1.astype(data_types_dict)
+
 
 df1.to_csv(f'./data/{season}_std.csv',index=False)
 
