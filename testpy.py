@@ -4,6 +4,8 @@ import pandas as pd
 
 season = 2021
 
+
+                                # SCRAPPING LATEST DATA #
 #######################################################################################################
 
 url = "https://www.basketball-reference.com/leagues/NBA_{}_totals.html".format(season)
@@ -14,15 +16,11 @@ url = "https://www.basketball-reference.com/leagues/NBA_{}_advanced.html".format
 df_advanced = scrap(url)
 df_advanced.to_csv(f"./basketball_reference_dbs/{season}_advanced.csv", index=False)
 
-# url = "https://www.basketball-reference.com/awards/awards_{}.html".format(season)
-# df_mvp = scrap(url, head_flag=1)
-# df_mvp = df_mvp.iloc[1:]
-# df_mvp.to_csv(f"./basketball_reference_dbs/mvp/{season}_mvp.csv", index=False)
-
 url = "https://www.basketball-reference.com/leagues/NBA_{}.html".format(season)
 df_teams = scrap_teams(url,season,head_flag=1)
 df_teams.to_csv(f"./basketball_reference_dbs/teams/{season}_teams.csv",index=False)
 
+                                    # STANDARDZING #
 ######################################################################################################
 
 df1 = pd.read_csv(f'./basketball_reference_dbs/{season}_totals.csv')
@@ -58,4 +56,8 @@ data_types_dict = {'Age': 'int32', 'G': 'int32', 'MP': 'int32', 'FG': 'int32', '
 df1 = df1.astype(data_types_dict)
 
 df1.to_csv(f'./data/{season}_std.csv',index=False)
+
+
+                                    # RUNNING THE ANALYSIS #
+######################################################################################################
 
