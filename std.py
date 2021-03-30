@@ -48,7 +48,7 @@ def adjust_mvp(df):
     
     df = df.drop(rows_to_drop)
 
-    df.to_csv(f'./data/mvp/{season}_mvp_std.csv', index=False)
+    # df.to_csv(f'./data/mvp/{season}_mvp_std.csv', index=False)
      
     return df
 
@@ -199,3 +199,5 @@ def std_latest(season=2021):
     df1 = df1.astype(data_types_dict)
 
     df1.to_csv(f'./data/{season}_std.csv',index=False)
+
+    return df1
