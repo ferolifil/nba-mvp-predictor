@@ -1,0 +1,228 @@
+Round : 1
+Iterations : 5
+Max_depth : 1
+Features used : ['VORP', 'WS', 'BPM', 'PER']
+GLOBAL_SUCCESS_RATE : 47.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 65.00%
+Elapsed time : 40.45
+-----------------------------------------
+Round : 2
+Iterations : 5
+Max_depth : 2
+Features used : ['VORP', 'WS', 'BPM', 'PER', 'W/L%', 'USG%', 'PTS', 'DRB', 'AST', 'AST%', 'TOV']
+GLOBAL_SUCCESS_RATE : 60.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 69.17%
+Elapsed time : 155.54
+-----------------------------------------
+Round : 3
+Iterations : 5
+Max_depth : 3
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'USG%', 'PTS', 'AST%', 'AST', 'TOV', 'DRB', 'FT%', 'eFG%', 'ORB', 'BLK', 'TS%', 'STL', 'TRB%', 'BLK%', 'PF', '3P%', 'TOV%']
+GLOBAL_SUCCESS_RATE : 62.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.83%
+Elapsed time : 411.11
+-----------------------------------------
+Round : 4
+Iterations : 5
+Max_depth : 4
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'PTS', 'USG%', 'AST', 'TOV', 'AST%', 'DRB', 'eFG%', 'PF', 'TS%', 'FT%', '2P%', '3P%', 'ORB', 'BLK', 'STL', 'TRB%', 'STL%', 'BLK%', 'TOV%']
+GLOBAL_SUCCESS_RATE : 62.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 576.75
+-----------------------------------------
+Round : 5
+Iterations : 5
+Max_depth : 5
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'USG%', 'PTS', 'TOV', 'AST%', 'AST', 'FT%', 'eFG%', '2P%', 'DRB', '3P%', 'TS%', 'PF', 'TRB%', 'STL', 'ORB', 'BLK', 'TOV%', 'STL%', 'BLK%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 716.62
+-----------------------------------------
+Round : 6
+Iterations : 5
+Max_depth : 6
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'PTS', 'USG%', 'TOV', 'AST%', 'FT%', 'AST', 'eFG%', 'PF', 'DRB', '3P%', 'TS%', '2P%', 'BLK', 'TRB%', 'STL', 'ORB', 'TOV%', 'BLK%', 'STL%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.83%
+Elapsed time : 854.04
+-----------------------------------------
+Round : 7
+Iterations : 5
+Max_depth : 7
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'USG%', 'PTS', 'TOV', 'AST%', 'AST', 'eFG%', 'FT%', '3P%', '2P%', 'PF', 'TS%', 'TRB%', 'DRB', 'BLK', 'STL', 'ORB', 'TOV%', 'STL%', 'BLK%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 994.80
+-----------------------------------------
+Round : 8
+Iterations : 5
+Max_depth : 8
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'USG%', 'BPM', 'PTS', 'TOV', 'AST', 'FT%', 'AST%', 'TS%', 'DRB', 'eFG%', '3P%', 'BLK', 'PF', 'STL', 'TOV%', '2P%', 'TRB%', 'ORB', 'BLK%', 'STL%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 1135.38
+-----------------------------------------
+Round : 9
+Iterations : 5
+Max_depth : 9
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'USG%', 'PTS', 'TOV', 'FT%', 'AST%', 'eFG%', 'AST', 'TS%', '3P%', '2P%', 'STL', 'ORB', 'BLK', 'TOV%', 'TRB%', 'DRB', 'PF', 'STL%', 'BLK%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 69.17%
+Elapsed time : 1259.24
+-----------------------------------------
+Round : 10
+Iterations : 5
+Max_depth : 10
+Features used : ['VORP', 'WS', 'PER', 'W/L%', 'BPM', 'USG%', 'PTS', 'TOV', 'AST%', 'eFG%', 'FT%', 'AST', 'DRB', 'PF', '3P%', 'TS%', '2P%', 'BLK', 'TOV%', 'STL', 'TRB%', 'BLK%', 'ORB', 'STL%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 1394.62
+-----------------------------------------
+Round : 11
+Iterations : 5
+Max_depth : 11
+Features used : ['VORP', 'PER', 'WS', 'W/L%', 'BPM', 'PTS', 'USG%', 'TOV', 'AST%', 'FT%', 'AST', 'DRB', 'PF', '2P%', '3P%', 'TS%', 'eFG%', 'TRB%', 'BLK', 'STL', 'ORB', 'TOV%', 'STL%', 'BLK%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 1526.52
+-----------------------------------------
+Round : 12
+Iterations : 5
+Max_depth : 12
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'PTS', 'USG%', 'TOV', 'FT%', 'AST', 'AST%', 'eFG%', '3P%', '2P%', 'TS%', 'PF', 'DRB', 'ORB', 'STL', 'BLK', 'TRB%', 'TOV%', 'STL%', 'BLK%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 69.17%
+Elapsed time : 1663.29
+-----------------------------------------
+Round : 13
+Iterations : 5
+Max_depth : 13
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'PTS', 'USG%', 'TOV', 'AST%', 'FT%', 'AST', 'PF', '2P%', 'eFG%', '3P%', 'TS%', 'DRB', 'ORB', 'TRB%', 'STL', 'TOV%', 'BLK', 'BLK%', 'STL%']
+GLOBAL_SUCCESS_RATE : 67.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 69.17%
+Elapsed time : 1791.97
+-----------------------------------------
+Round : 14
+Iterations : 5
+Max_depth : 14
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'USG%', 'PTS', 'TOV', 'AST%', 'AST', 'FT%', '3P%', '2P%', 'DRB', 'eFG%', 'PF', 'TS%', 'TOV%', 'STL', 'ORB', 'BLK', 'TRB%', 'BLK%', 'STL%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 1925.46
+-----------------------------------------
+Round : 15
+Iterations : 5
+Max_depth : 15
+Features used : ['VORP', 'WS', 'PER', 'W/L%', 'BPM', 'PTS', 'USG%', 'TOV', 'AST%', 'AST', 'FT%', 'DRB', 'PF', 'eFG%', '2P%', '3P%', 'STL', 'TS%', 'TOV%', 'TRB%', 'BLK', 'ORB', 'BLK%', 'STL%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.83%
+Elapsed time : 2069.93
+-----------------------------------------
+Round : 16
+Iterations : 10
+Max_depth : 1
+Features used : ['VORP', 'WS', 'PER', 'BPM']
+GLOBAL_SUCCESS_RATE : 45.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 62.50%
+Elapsed time : 80.52
+-----------------------------------------
+Round : 17
+Iterations : 10
+Max_depth : 2
+Features used : ['VORP', 'WS', 'PER', 'BPM', 'W/L%', 'USG%', 'PTS', 'AST', 'AST%', 'BLK', 'DRB', 'ORB']
+GLOBAL_SUCCESS_RATE : 62.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 69.17%
+Elapsed time : 334.93
+-----------------------------------------
+Round : 18
+Iterations : 10
+Max_depth : 3
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'USG%', 'PTS', 'AST%', 'AST', 'TOV', 'eFG%', 'FT%', 'TOV%', '2P%', 'DRB', '3P%', 'BLK', 'PF', 'ORB', 'BLK%', 'TS%', 'STL', 'STL%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 69.17%
+Elapsed time : 857.27
+-----------------------------------------
+Round : 19
+Iterations : 10
+Max_depth : 4
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'USG%', 'BPM', 'PTS', 'AST%', 'TOV', 'AST', 'eFG%', 'FT%', 'DRB', 'PF', '2P%', 'STL', '3P%', 'TS%', 'ORB', 'TOV%', 'STL%', 'TRB%', 'BLK', 'BLK%']
+GLOBAL_SUCCESS_RATE : 67.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 1185.29
+-----------------------------------------
+Round : 20
+Iterations : 10
+Max_depth : 5
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'PTS', 'USG%', 'TOV', 'AST%', 'AST', 'eFG%', '2P%', 'FT%', 'TS%', '3P%', 'TOV%', 'BLK', 'DRB', 'PF', 'ORB', 'STL', 'TRB%', 'BLK%', 'STL%']
+GLOBAL_SUCCESS_RATE : 67.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 71.67%
+Elapsed time : 1464.03
+-----------------------------------------
+Round : 21
+Iterations : 10
+Max_depth : 6
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'USG%', 'PTS', 'TOV', 'AST%', 'AST', 'PF', 'FT%', 'DRB', 'TS%', '3P%', 'eFG%', '2P%', 'BLK', 'TOV%', 'TRB%', 'ORB', 'STL', 'BLK%', 'STL%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 68.33%
+Elapsed time : 1723.81
+-----------------------------------------
+Round : 22
+Iterations : 10
+Max_depth : 7
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'USG%', 'PTS', 'TOV', 'FT%', 'AST%', 'AST', 'eFG%', '3P%', 'TS%', 'DRB', 'PF', '2P%', 'ORB', 'TOV%', 'TRB%', 'STL', 'BLK%', 'BLK', 'STL%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 2015.89
+-----------------------------------------
+Round : 23
+Iterations : 10
+Max_depth : 8
+Features used : ['VORP', 'WS', 'PER', 'W/L%', 'BPM', 'USG%', 'PTS', 'TOV', 'FT%', 'AST', 'AST%', 'DRB', '3P%', 'TS%', '2P%', 'PF', 'STL', 'eFG%', 'TOV%', 'ORB', 'STL%', 'BLK', 'BLK%', 'TRB%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 2254.13
+-----------------------------------------
+Round : 24
+Iterations : 10
+Max_depth : 9
+Features used : ['VORP', 'WS', 'PER', 'W/L%', 'USG%', 'PTS', 'BPM', 'TOV', 'AST', 'FT%', 'AST%', 'eFG%', 'DRB', '3P%', 'TS%', 'PF', '2P%', 'BLK', 'STL', 'TRB%', 'ORB', 'TOV%', 'BLK%', 'STL%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 2558.40
+-----------------------------------------
+Round : 25
+Iterations : 10
+Max_depth : 10
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'USG%', 'PTS', 'TOV', 'FT%', 'AST%', 'AST', 'eFG%', '3P%', 'PF', 'DRB', '2P%', 'TS%', 'TRB%', 'ORB', 'BLK', 'TOV%', 'STL', 'BLK%', 'STL%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.83%
+Elapsed time : 2785.50
+-----------------------------------------
+Round : 26
+Iterations : 10
+Max_depth : 11
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'USG%', 'BPM', 'PTS', 'TOV', 'FT%', 'AST', 'AST%', 'eFG%', '3P%', 'DRB', 'TS%', 'PF', '2P%', 'TOV%', 'STL', 'TRB%', 'BLK', 'ORB', 'BLK%', 'STL%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.83%
+Elapsed time : 3051.79
+-----------------------------------------
+Round : 27
+Iterations : 10
+Max_depth : 12
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'PTS', 'USG%', 'TOV', 'FT%', 'AST%', 'eFG%', 'AST', 'DRB', 'PF', 'TS%', '2P%', '3P%', 'BLK', 'TOV%', 'TRB%', 'STL', 'BLK%', 'ORB', 'STL%']
+GLOBAL_SUCCESS_RATE : 67.50%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 3310.51
+-----------------------------------------
+Round : 28
+Iterations : 10
+Max_depth : 13
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'BPM', 'USG%', 'PTS', 'TOV', 'AST%', 'AST', 'FT%', 'eFG%', '3P%', 'DRB', 'TS%', 'PF', '2P%', 'BLK', 'STL', 'ORB', 'TOV%', 'TRB%', 'BLK%', 'STL%']
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Elapsed time : 3572.93
+-----------------------------------------
+Round : 29
+Iterations : 10
+Max_depth : 14
+Features used : ['VORP', 'WS', 'W/L%', 'PER', 'USG%', 'PTS', 'BPM', 'TOV', 'AST', 'AST%', 'FT%', 'eFG%', '3P%', '2P%', 'BLK', 'PF', 'DRB', 'TRB%', 'STL', 'TOV%', 'TS%', 'ORB', 'STL%', 'BLK%']

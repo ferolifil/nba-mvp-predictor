@@ -1,0 +1,45 @@
+Model : RandomForestRegressor(max_depth=5, n_estimators=10)
+24 features : ['VORP', 'WS', 'W/L%', 'PER', 'USG%', 'AST%', 'PTS', 'AST', 'FT%', 'TOV', 'TRB%', 'BPM', '2P%', 'BLK%', 'PF', 'DRB', 'eFG%', '3P%', 'ORB', 'STL%', 'STL', 'TS%', 'BLK', 'TOV%']
+ 1981 | Success  | 2 from de top3 correct | ['Julius Erving', 'Kareem Abdul-Jabbar'] |
+ 1982 |   Fail   | 2 from de top3 correct | ['Julius Erving', 'Moses Malone'] |
+ 1983 | Success  | 3 from de top3 correct | ['Moses Malone', 'Magic Johnson', 'Larry Bird'] |
+ 1984 | Success  | 2 from de top3 correct | ['Larry Bird', 'Magic Johnson'] |
+ 1985 | Success  | 2 from de top3 correct | ['Larry Bird', 'Magic Johnson'] |
+ 1986 | Success  | 2 from de top3 correct | ['Larry Bird', 'Magic Johnson'] |
+ 1987 | Success  | 3 from de top3 correct | ['Magic Johnson', 'Larry Bird', 'Michael Jordan'] |
+ 1988 | Success  | 2 from de top3 correct | ['Michael Jordan', 'Larry Bird'] |
+ 1989 |   Fail   | 2 from de top3 correct | ['Michael Jordan', 'Magic Johnson'] |
+ 1990 | Success  | 2 from de top3 correct | ['Magic Johnson', 'Michael Jordan'] |
+ 1991 | Success  | 3 from de top3 correct | ['Michael Jordan', 'David Robinson', 'Magic Johnson'] |
+ 1992 | Success  | 2 from de top3 correct | ['Michael Jordan', 'Clyde Drexler'] |
+ 1993 |   Fail   | 3 from de top3 correct | ['Michael Jordan', 'Charles Barkley', 'Hakeem Olajuwon'] |
+ 1994 |   Fail   | 2 from de top3 correct | ['David Robinson', 'Hakeem Olajuwon'] |
+ 1995 | Success  | 2 from de top3 correct | ['David Robinson', 'Karl Malone'] |
+ 1996 | Success  | 3 from de top3 correct | ['Michael Jordan', 'David Robinson', 'Anfernee Hardaway'] |
+ 1997 |   Fail   | 2 from de top3 correct | ['Michael Jordan', 'Karl Malone'] |
+ 1998 |   Fail   | 2 from de top3 correct | ['Karl Malone', 'Michael Jordan'] |
+ 1999 |   Fail   | 1 from de top3 correct | ['Karl Malone'] |
+ 2000 | Success  | 1 from de top3 correct | ["Shaquille O'Neal"] |
+ 2001 |   Fail   | 2 from de top3 correct | ["Shaquille O'Neal", 'Tim Duncan'] |
+ 2002 | Success  | 2 from de top3 correct | ['Tim Duncan', "Shaquille O'Neal"] |
+ 2003 | Success  | 1 from de top3 correct | ['Tim Duncan'] |
+ 2004 | Success  | 2 from de top3 correct | ['Kevin Garnett', 'Tim Duncan'] |
+ 2005 |   Fail   | 1 from de top3 correct | ['Dirk Nowitzki'] |
+ 2006 |   Fail   | 2 from de top3 correct | ['Dirk Nowitzki', 'LeBron James'] |
+ 2007 | Success  | 2 from de top3 correct | ['Dirk Nowitzki', 'Steve Nash'] |
+ 2008 |   Fail   | 2 from de top3 correct | ['Chris Paul', 'Kobe Bryant'] |
+ 2009 | Success  | 2 from de top3 correct | ['LeBron James', 'Dwyane Wade'] |
+ 2010 | Success  | 2 from de top3 correct | ['LeBron James', 'Kevin Durant'] |
+ 2011 |   Fail   | 2 from de top3 correct | ['LeBron James', 'Derrick Rose'] |
+ 2012 | Success  | 3 from de top3 correct | ['LeBron James', 'Kevin Durant', 'Chris Paul'] |
+ 2013 | Success  | 2 from de top3 correct | ['LeBron James', 'Kevin Durant'] |
+ 2014 | Success  | 2 from de top3 correct | ['Kevin Durant', 'LeBron James'] |
+ 2015 | Success  | 2 from de top3 correct | ['Stephen Curry', 'James Harden'] |
+ 2016 | Success  | 2 from de top3 correct | ['Stephen Curry', 'LeBron James'] |
+ 2017 |   Fail   | 3 from de top3 correct | ['Kawhi Leonard', 'James Harden', 'Russell Westbrook'] |
+ 2018 | Success  | 2 from de top3 correct | ['James Harden', 'LeBron James'] |
+ 2019 | Success  | 2 from de top3 correct | ['Giannis Antetokounmpo', 'James Harden'] |
+ 2020 |   Fail   | 3 from de top3 correct | ['James Harden', 'Giannis Antetokounmpo', 'LeBron James'] |
+GLOBAL_SUCCESS_RATE : 65.00%
+GLOBAL_SUCCESS_RATE_TOP3 : 70.00%
+Time elapsed: 144.72 seconds
