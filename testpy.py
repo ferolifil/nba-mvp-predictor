@@ -1,9 +1,8 @@
-from scrap import scrap, scrap_teams, get_teams
-from std import adjust_main, adjust_mvp, transfered_players, merging_df, teams_std
+from scrap import scrap, scrap_teams, get_teams, scrap_latest
+from std import adjust_main, adjust_mvp, transfered_players, merging_df, teams_std, std_latest
 import pandas as pd
 
 season = 2021
-
 
                                 # SCRAPPING LATEST DATA #
 #######################################################################################################
@@ -19,6 +18,7 @@ df_advanced.to_csv(f"./basketball_reference_dbs/{season}_advanced.csv", index=Fa
 url = "https://www.basketball-reference.com/leagues/NBA_{}.html".format(season)
 df_teams = scrap_teams(url,season,head_flag=1)
 df_teams.to_csv(f"./basketball_reference_dbs/teams/{season}_teams.csv",index=False)
+
 
                                     # STANDARDZING #
 ######################################################################################################
@@ -57,6 +57,9 @@ df1 = df1.astype(data_types_dict)
 
 df1.to_csv(f'./data/{season}_std.csv',index=False)
 
+
+# scrap_latest()
+# std_latest()
 
                                     # RUNNING THE ANALYSIS #
 ######################################################################################################

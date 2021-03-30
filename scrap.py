@@ -7,7 +7,7 @@ def scrap(url, head_flag=0):
     
     # this is the HTML from the given URL
     html = urlopen(url)
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html,features="lxml")
 
     # use findALL() to get the column headers
     soup.findAll('tr', limit=2)[head_flag]
@@ -55,7 +55,7 @@ def scrap_teams(url, season,head_flag=0):
     
     # this is the HTML from the given URL
     html = urlopen(url)
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html,features="lxml")
 
     # use findALL() to get the column headers
     soup.findAll('tr', limit=2)[head_flag]
@@ -85,3 +85,20 @@ def scrap_teams(url, season,head_flag=0):
     df['Teams'] = teams
     
     return df
+
+
+def scrap_latest(season=2021):
+                                    # SCRAPPING LATEST DATA #
+    #######################################################################################################
+
+    url = "https://www.basketball-reference.com/leagues/NBA_{}_totals.html".format(season)
+    df_totals = scrap(url)
+    df_totals.to_csv(f"./basketball_reference_dbs/{season}_totals.csv", index=False)
+
+    url = "https://www.basketball-reference.com/leagues/NBA_{}_advanced.html".format(season)
+    df_advanced = scrap(url)
+    df_advanced.to_csv(f"./basketball_reference_dbs/{season}_advanced.csv", index=False)
+
+    url = "https://www.basketball-reference.com/leagues/NBA_{}.html".format(season)
+    df_teams = scrap_teams(url,season,head_flag=1)
+    df_teams.to_csv(f"./basketball_reference_dbs/teams/{season}_teams.csv",index=False)
