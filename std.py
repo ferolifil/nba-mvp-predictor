@@ -183,6 +183,10 @@ def std_latest(season=2021):
     df1 = merging_df(df1,df2,['Player','Pos', 'Age','G', 'MP','Tm']) 
 
     df1 = df1.fillna(0.0)
+    df1['First'] = 0
+    df1['Share'] = 0
+    df1['Status'] = 'OOR'
+
     df1[['Season']] = season
 
     df1 = transfered_players(df1)
