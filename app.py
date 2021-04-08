@@ -5,44 +5,36 @@ from std import std_latest
 from model import limit_calc, pred_latest
 import pandas as pd
 import numpy as np
+from pyngrok import ngrok
 
-season = 2021
+def main():
 
-st.write("""
-# NBA MVP Predictor
-""")
+  season = 2021
 
-submit = st.button('Start now')
-if submit:
+  st.write("""
+  # NBA MVP Predictor
+  """)
 
-  scrap_latest(season)
-  nba2021 = std_latest(season)
-  df_top5, mvp_stats = pred_latest()     
+  submit = st.button('Start now')
+  if submit:
 
-  st.table(df_top5)
-  # st.dataframe(df_top5.set_index('Player'))
-  # st.table(mvp_stats.set_index('Player'))
+    scrap_latest(season)
+    nba2021 = std_latest(season)
+    df_top5, mvp_stats = pred_latest()     
 
-  # mvp_stats = mvp_stats.astype({'PTS' : 'object', 'TRB' : 'object', 'AST' : 'object', 'BLK' : 'object', 'STL' : 'object', 'TOV' : 'object', 'PF' : 'object'})
+    st.table(df_top5)
 
-  # for col in np.arange(0,11,1):
-  #   if col not in [0,1,2,3]:
-  #     mvp_stats.iat[0,col] = '{:.2f}'.format(mvp_stats.iat[0,col])
-
-  mvp_stats = mvp_stats.set_index('Player')
-  st.table(mvp_stats.style.format({"PTS" : "{:.2f}", 'TRB' : "{:.2f}", 'AST' : "{:.2f}", 'BLK' : "{:.2f}", 'STL' : "{:.2f}", 'FG%' : "{:.2%}", 'FT%' : "{:.2%}"}))
+    mvp_stats = mvp_stats.set_index('Player')
+    st.table(mvp_stats.style.format({"PTS" : "{:.2f}", 'TRB' : "{:.2f}", 'AST' : "{:.2f}", 'BLK' : "{:.2f}", 'STL' : "{:.2f}", 'FG%' : "{:.2%}", 'FT%' : "{:.2%}"}))
 
 
-  st.image('./nikola.jpg')
+    st.image('./nikola.jpg')
 
-  # st.balloons() 
+  public_url = ngrok.connect('8501')
 
-  # st.dataframe(mvp_stats)
+  # public_url
+  # http://72eec084c813.ngrok.io
 
-  # latest_iteration = st.empty()
-  # bar = st.progress(0)
 
-  # for i in range(100):
-  #   latest_iteration.text(f'Iteration {i+1}')
-  #   bar.progress(i + 1)
-  #   time.sleep(0.1)
+if __name__ == "__main__":
+    main()
