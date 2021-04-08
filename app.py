@@ -29,12 +29,13 @@ def main():
 
 
     st.image('./nikola.jpg')
+  try:
+    public_url = ngrok.connect('8501')
 
-  public_url = ngrok.connect('8501')
-
-  # public_url
-  # http://72eec084c813.ngrok.io
-
+    # public_url
+    # http://72eec084c813.ngrok.io
+  except:
+    pass
 
 if __name__ == "__main__":
     main()
