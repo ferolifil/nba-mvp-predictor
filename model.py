@@ -16,7 +16,7 @@ def pred_latest():
         df = pd.read_csv(f'./data/{season}_std.csv', low_memory=False)    
         nba_dataset = nba_dataset.append(df)
 
-    cols = ['MP','FG','FG%','3P','2P','FT','DRB%','ORB%','OWS','DWS','WS/48','OBPM','DBPM','First']
+    cols = ['MP','FG','3P','2P','FT','DRB%','ORB%','OWS','DWS','WS/48','OBPM','DBPM','First']
     nba_dataset = nba_dataset.drop(columns=cols)
 
     nba_dataset = nba_dataset.loc[((nba_dataset['3P%'] >= 0.0) & (nba_dataset['3P%'] <= 0.6)) 
@@ -124,12 +124,13 @@ def pred_latest():
     df_top5 = df_temp2.set_index('Rk') 
 
     mvp = df_temp2.iat[0,0]
-    mvp_data = full_nba_dataset.loc[(full_nba_dataset['Player'] == mvp) & (full_nba_dataset['Season'] == season), ['Player','Pos','Age','Tm','PTS','TRB','AST','BLK','STL','TOV','PF','G']]
-    mvp_data = mvp_data.astype({'PTS' : 'float32', 'TRB' : 'float32', 'AST' : 'float32', 'BLK' : 'float32', 'STL' : 'float32', 'TOV' : 'float32', 'PF' : 'float32' })
+    mvp_data = full_nba_dataset.loc[(full_nba_dataset['Player'] == mvp) & (full_nba_dataset['Season'] == season), ['Player','Pos','Age','Tm','PTS','TRB','AST','BLK','STL','FG%','FT%','G']]
+    mvp_data = mvp_data.astype({'PTS' : 'float32', 'TRB' : 'float32', 'AST' : 'float32', 'BLK' : 'float32', 'STL' : 'float32', 'FG%' : 'float32', 'FT%' : 'float32' })
 
-    for i in np.arange(4,11,1):
+    for i in np.arange(4,9,1):
         mvp_data.iat[0,i] = "{:.2f}".format(mvp_data.iat[0,i] / mvp_data.iat[0,11]) 
 
     mvp_data = mvp_data.drop(columns='G')
+    print(mvp_data)
 
     return df_top5, mvp_data
