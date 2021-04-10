@@ -29,7 +29,7 @@ To produce this application I've used data from 41 different seasons, between 19
 In the analysis we can see a number of abbreviations, the <b>Glossary.txt</b> file cover them all.</br>
 
 
-To run the application.
+To run the application:
 
 ```python
 streamlit run app.py
