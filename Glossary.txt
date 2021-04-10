@@ -67,3 +67,13 @@ FG% : Field Goal Percentage
 FT% : Free Throw Percentage
 WS : Win Shares. An estimate of the number of wins contributed by a player.
 WS/48 : Win Shares Per 48 Minutes. An estimate of the number of wins contributed by a player per 48 minutes (league average is approximately .100)
+
+-- TEAMS -- 
+
+W : Wins
+L : Losses 
+W/L% : Win-Loss Percentage
+GB : Games Behing
+PS/G : Points Per Game
+PA/G : Opponent Points Per Game
+SRS : Simple Rating System; a team rating that takes into account average point differential and strength of schedule. The rating is denominated in points above/below average, where zero is average.
