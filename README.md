@@ -25,5 +25,12 @@ The project consists in 4 steps.
 ### App
 * After the three the steps I've created an simple app just to show the prediction for 2021 NBA MVP. Needs improvement. 
 --------------------------------------------
-To produce this application I've used data from 41 different seasons, between 1981 and 2021. I've chosen this dates because in 1981 the league changed the mvp election process.
-In the analysis we can see a number of abbreviations, the <b>Glossary.txt</b> file cover them all.
+To produce this application I've used data from 41 different seasons, between 1981 and 2021. I've chosen this dates because in 1981 the league changed the mvp election process.</br>
+In the analysis we can see a number of abbreviations, the <b>Glossary.txt</b> file cover them all.</br>
+
+
+To run the application.
+
+```python
+streamlit run app.py
+```
