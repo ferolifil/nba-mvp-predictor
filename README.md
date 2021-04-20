@@ -1,6 +1,8 @@
 # nba-mvp-predictor
 
-The project consists in 4 steps.
+This is an application that tryes to predict the next NBA MVP (2020-2021). 
+
+It's divided in 4 major steps.
 
 1. Scrapping
 2. Standardizing
