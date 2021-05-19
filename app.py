@@ -24,31 +24,38 @@ def main():
 
   season = 2021
 
-  st.write("""
-  # NBA MVP Predictor
-  """)
+  # st.write("""
+  # # NBA MVP Predictor
+  # """)
 
-  submit = st.button('Start now')
-  if submit:
+  scrap_latest(season)
+  nba2021 = std_latest(season)
+  df_top5, mvp_stats = pred_latest()   
 
-    scrap_latest(season)
-    nba2021 = std_latest(season)
-    df_top5, mvp_stats = pred_latest()   
+  mvp = mvp_stats.iat[0,0]  
+  print(mvp)
 
-    mvp = mvp_stats.iat[0,0]  
-    print(mvp)
+  # submit = st.button('Start now')
+  # if submit:
 
-    st.table(df_top5)
+  #   scrap_latest(season)
+  #   nba2021 = std_latest(season)
+  #   df_top5, mvp_stats = pred_latest()   
 
-    mvp_stats = mvp_stats.set_index('Player')
-    st.table(mvp_stats.style.format({"PTS" : "{:.2f}", 'TRB' : "{:.2f}", 'AST' : "{:.2f}", 'BLK' : "{:.2f}", 'STL' : "{:.2f}", 'FG%' : "{:.2%}", 'FT%' : "{:.2%}"}))
+  #   mvp = mvp_stats.iat[0,0]  
+  #   print(mvp)
 
-    st.image('./img/{}'.format(img_dict[mvp]))
+  #   st.table(df_top5)
 
-  try:
-    public_url = ngrok.connect('8501')
-  except:
-    pass
+  #   mvp_stats = mvp_stats.set_index('Player')
+  #   st.table(mvp_stats.style.format({"PTS" : "{:.2f}", 'TRB' : "{:.2f}", 'AST' : "{:.2f}", 'BLK' : "{:.2f}", 'STL' : "{:.2f}", 'FG%' : "{:.2%}", 'FT%' : "{:.2%}"}))
+
+  #   st.image('./img/{}'.format(img_dict[mvp]))
+
+  # try:
+  #   public_url = ngrok.connect('8501')
+  # except:
+  #   pass
 
 if __name__ == "__main__":
     main()
