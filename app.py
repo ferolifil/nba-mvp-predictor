@@ -33,7 +33,7 @@ def main():
   df_top5, mvp_stats = pred_latest()   
 
   mvp = mvp_stats.iat[0,0]  
-  print(mvp_stats)
+  print(df_top5)
 
   # submit = st.button('Start now')
   # if submit:
